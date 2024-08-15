@@ -12,7 +12,7 @@ const CountryCard = ({name, flag, alttext}) => {
     }}>
       <img src={flag} alt={alttext} style={{height:"100px",
       width:"100px"}}/>
-      <h3>a{name}</h3>
+      <h3>{name}</h3>
     </div>
   )
 }
