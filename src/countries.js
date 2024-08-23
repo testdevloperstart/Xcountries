@@ -27,7 +27,7 @@ function Countries() {
     fetch(API_URL)
     .then(res =>res.json())
     .then(data=>setCountry(data))
-    .catch((error)=> console.log("Error fetching data",error))
+    .catch((error) => console.error(error));
     
   },[])
   return (
